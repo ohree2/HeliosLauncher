@@ -23,7 +23,7 @@
           "classpath": false,
           "artifact": {
             "size": 2654813,
-            "url": "https://example.com/forge-1.21.4-universal.jar"
+            "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.21.4-45.0.9/forge-1.21.4-45.0.9-universal.jar"
           }
         }
       ]
@@ -47,7 +47,7 @@
           "classpath": false,
           "artifact": {
             "size": 14367,
-            "url": "https://example.com/fabric-api-1.21.4.jar"
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-api/1.21.4/fabric-api-1.21.4.jar"
           }
         }
       ]
