@@ -47,7 +47,7 @@
           "classpath": false,
           "artifact": {
             "size": 14367,
-            "url": "https://github.com/ohree2/HeliosLauncher/blob/main/fabric-api-0.119.2%2B1.21.4.jar"
+            "url": "https://github.com/ohree2/HeliosLauncher/raw/main/fabric-api-0.119.2%2B1.21.4.jar"
           }
         }
       ]
