@@ -5,30 +5,6 @@
   },
   "servers": [
     {
-      "id": "1.21.4-Forge",
-      "name": "Minecraft 1.21.4 (Forge)",
-      "description": "Minecraft 1.21.4 with Forge Mod Loader",
-      "icon": "https://example.com/minecraft-icon.png",
-      "version": "1.21.4",
-      "modLoader": "Forge",
-      "minecraftVersion": "1.21.4",
-      "address": "localhost:25565",
-      "autoconnect": false,
-      "mainServer": true,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.21.4-45.0.9:universal",
-          "name": "Minecraft Forge (1.21.4)",
-          "type": "Library",
-          "classpath": false,
-          "artifact": {
-            "size": 2654813,
-            "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.21.4-45.0.9/forge-1.21.4-45.0.9-universal.jar"
-          }
-        }
-      ]
-    },
-    {
       "id": "1.21.4-Fabric",
       "name": "Minecraft 1.21.4 (Fabric)",
       "description": "Minecraft 1.21.4 with Fabric Mod Loader",
@@ -38,17 +14,16 @@
       "minecraftVersion": "1.21.4",
       "address": "localhost:25565",
       "autoconnect": false,
-      "mainServer": false,
+      "mainServer": true,
       "modules": [
         {
-          "id": "net.fabricmc:fabric-api:1.21.4",
+          "id": "net.fabricmc:fabric-api:0.97.1+1.21.4",
           "name": "Fabric API (1.21.4)",
           "type": "Library",
           "classpath": false,
           "artifact": {
-            "size": 14367,
-            "url": "https://github.com/ohree2/HeliosLauncher/raw/main/fabric-api-0.119.2+1.21.4.jar
-"
+            "size": 692310,  // 실제 size는 대략적이니 정확하지 않아도 무방
+            "url": "https://github.com/FabricMC/fabric/releases/download/0.97.1+1.21.4/fabric-api-0.97.1+1.21.4.jar"
           }
         }
       ]
